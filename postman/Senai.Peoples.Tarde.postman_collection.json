@@ -39,7 +39,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\t\r\n        \"nome\": \"Alssandra\",\r\n        \"sobrenome\": \"Sodre\",\r\n        \"dataNascimento\":\"1999-11-16T00:00:00\"\r\n        \r\n }",
+					"raw": "{\r\n\t\t\r\n        \"nome\": \"Junior\",\r\n        \"sobrenome\": \"Lima\",\r\n        \"dataNascimento\":\"1988-11-20T00:00:00\"\r\n        \r\n }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -75,7 +75,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\t\"idFuncionario\":\"1\",\r\n        \"nome\": \"Kiara\",\r\n        \"sobrenome\": \"Santos\",\r\n        \"dataNascimento\":\"2000-03-20T00:00:00\"\r\n }",
+					"raw": "{\r\n        \"idFuncionario\": 5,\r\n        \"nome\": \"Alessandra\",\r\n        \"sobrenome\": \"Sodre\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -119,7 +119,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/Funcionarios/2",
+					"raw": "http://localhost:5000/api/Funcionarios/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -128,7 +128,7 @@
 					"path": [
 						"api",
 						"Funcionarios",
-						"2"
+						"6"
 					]
 				}
 			},
@@ -140,7 +140,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/Funcionarios/2",
+					"raw": "http://localhost:5000/api/Funcionarios/5",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -149,7 +149,7 @@
 					"path": [
 						"api",
 						"Funcionarios",
-						"2"
+						"5"
 					]
 				}
 			},

@@ -29,6 +29,13 @@ namespace Senai.Peoples.WebApi.Controllers
             return _funcionarioRepository.Listar();
         }
 
+        [HttpPost]
+        public IActionResult Post(FuncionariosDomain novoFuncionario)
+        {
+            _funcionarioRepository.Cadastrar(novoFuncionario);
+            return StatusCode(201);
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
